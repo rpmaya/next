@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import './Navbar.css'
 
 export default function Navbar() {
     // <nav className="navbar py-5">
@@ -17,6 +18,16 @@ export default function Navbar() {
                 <li>
                     <Link href="/posts" >
                         Posts
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/register" >
+                        Sign Up
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/login" >
+                        Sign In
                     </Link>
                 </li>
             </ul>
