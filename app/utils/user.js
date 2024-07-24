@@ -1,6 +1,7 @@
 'use server'
 
 async function createUser(data) {
+    //console.log(data)
     try {
         const url = `${process.env.NEXT_PUBLIC_BACKEND_DOMAIN}/api/user/register`;
         const response = await fetch(url, {

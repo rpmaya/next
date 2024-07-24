@@ -66,7 +66,7 @@ export default function LoginForm() {
                 <input className="mt-4 w-full" type="submit" />
             </div>
             <div className='mt-6 text-white'>
-                <Link href="/login">¿Ya tienes cuenta? <span className='text-blue-500'>Accede</span></Link>
+                <Link href="/register">¿No tienes cuenta? <span className='text-blue-500'>Regístrate</span></Link>
             </div>
         </form>
     )
